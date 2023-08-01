@@ -15,11 +15,11 @@ struct PharmacyListItemView: View {
             Image("logo")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 70)
+                .frame(width: 60)
             
             VStack (alignment: .leading, spacing: 3) {
                 Text(pharmacy.eczaneAdi)
-                    .font(.system(size: 16))
+                    .font(.system(size: 14))
                     .fontWeight(.semibold)
                 
                 HStack {
@@ -31,11 +31,11 @@ struct PharmacyListItemView: View {
                     }
                         
                 }
-                .font(.system(size: 13))
+                .font(.system(size: 11))
                 .foregroundColor(.red)
                 
                 Text(pharmacy.adresi)
-                    .font(.system(size: 12))
+                    .font(.system(size: 10))
                 
             }
         }

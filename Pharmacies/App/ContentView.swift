@@ -21,8 +21,13 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationViewStyle(.automatic)
-            .navigationTitle(selectedCity)
+            .navigationViewStyle(.stack)
+            .navigationBarTitle(selectedCity, displayMode: .inline)
+        }
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                
+            }
         }
         
         
