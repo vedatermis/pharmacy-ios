@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE42AC7D2A757091005194EF /* PharmacyDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42AC7C2A757091005194EF /* PharmacyDetailViewModel.swift */; };
+		CE42AC812A769C20005194EF /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42AC802A769C20005194EF /* TestView.swift */; };
 		CE81E3EA2A71394A0022FCB0 /* PharmaciesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E3E92A71394A0022FCB0 /* PharmaciesApp.swift */; };
 		CE81E3EC2A71394A0022FCB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E3EB2A71394A0022FCB0 /* ContentView.swift */; };
 		CE81E3EE2A71394B0022FCB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE81E3ED2A71394B0022FCB0 /* Assets.xcassets */; };
 		CE81E3F12A71394B0022FCB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE81E3F02A71394B0022FCB0 /* Preview Assets.xcassets */; };
+		CE81E3FC2A7292440022FCB0 /* PharmacyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E3FB2A7292440022FCB0 /* PharmacyModel.swift */; };
+		CE81E4012A7293290022FCB0 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E4002A7293290022FCB0 /* ApiResponse.swift */; };
+		CE81E4032A7297380022FCB0 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E4022A7297380022FCB0 /* CodableBundleExtension.swift */; };
+		CE81E4052A72DE960022FCB0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E4042A72DE960022FCB0 /* MainView.swift */; };
+		CE81E4092A72DF0F0022FCB0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E4082A72DF0F0022FCB0 /* MapView.swift */; };
+		CE81E40B2A72DF730022FCB0 /* pharmacy.json in Resources */ = {isa = PBXBuildFile; fileRef = CE81E40A2A72DF720022FCB0 /* pharmacy.json */; };
+		CE81E40D2A72E12B0022FCB0 /* PharmacyListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E40C2A72E12B0022FCB0 /* PharmacyListItemView.swift */; };
+		CE81E40F2A72EE390022FCB0 /* PharmacyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E40E2A72EE390022FCB0 /* PharmacyDetailView.swift */; };
+		CE81E4112A73AE920022FCB0 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E4102A73AE920022FCB0 /* MapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE42AC7C2A757091005194EF /* PharmacyDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDetailViewModel.swift; sourceTree = "<group>"; };
+		CE42AC802A769C20005194EF /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		CE81E3E62A71394A0022FCB0 /* Pharmacies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharmacies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE81E3E92A71394A0022FCB0 /* PharmaciesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmaciesApp.swift; sourceTree = "<group>"; };
 		CE81E3EB2A71394A0022FCB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE81E3ED2A71394B0022FCB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE81E3F02A71394B0022FCB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE81E3FB2A7292440022FCB0 /* PharmacyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyModel.swift; sourceTree = "<group>"; };
+		CE81E4002A7293290022FCB0 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		CE81E4022A7297380022FCB0 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		CE81E4042A72DE960022FCB0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CE81E4082A72DF0F0022FCB0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CE81E40A2A72DF720022FCB0 /* pharmacy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pharmacy.json; sourceTree = "<group>"; };
+		CE81E40C2A72E12B0022FCB0 /* PharmacyListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyListItemView.swift; sourceTree = "<group>"; };
+		CE81E40E2A72EE390022FCB0 /* PharmacyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDetailView.swift; sourceTree = "<group>"; };
+		CE81E4102A73AE920022FCB0 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +73,11 @@
 		CE81E3E82A71394A0022FCB0 /* Pharmacies */ = {
 			isa = PBXGroup;
 			children = (
-				CE81E3E92A71394A0022FCB0 /* PharmaciesApp.swift */,
-				CE81E3EB2A71394A0022FCB0 /* ContentView.swift */,
+				CE81E3FD2A7292760022FCB0 /* Data */,
+				CE81E3FA2A7292340022FCB0 /* Model */,
+				CE81E3F92A7292250022FCB0 /* Extension */,
+				CE81E3F82A7259360022FCB0 /* View */,
+				CE81E3F72A7141490022FCB0 /* App */,
 				CE81E3ED2A71394B0022FCB0 /* Assets.xcassets */,
 				CE81E3EF2A71394B0022FCB0 /* Preview Content */,
 			);
@@ -65,6 +90,54 @@
 				CE81E3F02A71394B0022FCB0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE81E3F72A7141490022FCB0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE81E3E92A71394A0022FCB0 /* PharmaciesApp.swift */,
+				CE81E3EB2A71394A0022FCB0 /* ContentView.swift */,
+				CE81E4042A72DE960022FCB0 /* MainView.swift */,
+				CE81E4082A72DF0F0022FCB0 /* MapView.swift */,
+				CE42AC802A769C20005194EF /* TestView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE81E3F82A7259360022FCB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE81E40C2A72E12B0022FCB0 /* PharmacyListItemView.swift */,
+				CE81E40E2A72EE390022FCB0 /* PharmacyDetailView.swift */,
+				CE81E4102A73AE920022FCB0 /* MapAnnotationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE81E3F92A7292250022FCB0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE81E4022A7297380022FCB0 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE81E3FA2A7292340022FCB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE81E3FB2A7292440022FCB0 /* PharmacyModel.swift */,
+				CE81E4002A7293290022FCB0 /* ApiResponse.swift */,
+				CE42AC7C2A757091005194EF /* PharmacyDetailViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE81E3FD2A7292760022FCB0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CE81E40A2A72DF720022FCB0 /* pharmacy.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE81E3F12A71394B0022FCB0 /* Preview Assets.xcassets in Resources */,
+				CE81E40B2A72DF730022FCB0 /* pharmacy.json in Resources */,
 				CE81E3EE2A71394B0022FCB0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +211,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE42AC812A769C20005194EF /* TestView.swift in Sources */,
+				CE81E4112A73AE920022FCB0 /* MapAnnotationView.swift in Sources */,
+				CE42AC7D2A757091005194EF /* PharmacyDetailViewModel.swift in Sources */,
+				CE81E40D2A72E12B0022FCB0 /* PharmacyListItemView.swift in Sources */,
+				CE81E4092A72DF0F0022FCB0 /* MapView.swift in Sources */,
 				CE81E3EC2A71394A0022FCB0 /* ContentView.swift in Sources */,
+				CE81E40F2A72EE390022FCB0 /* PharmacyDetailView.swift in Sources */,
+				CE81E4052A72DE960022FCB0 /* MainView.swift in Sources */,
+				CE81E4012A7293290022FCB0 /* ApiResponse.swift in Sources */,
+				CE81E3FC2A7292440022FCB0 /* PharmacyModel.swift in Sources */,
 				CE81E3EA2A71394A0022FCB0 /* PharmaciesApp.swift in Sources */,
+				CE81E4032A7297380022FCB0 /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
