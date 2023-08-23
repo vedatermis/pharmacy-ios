@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0D1ADB2A90AEB100EFDF49 /* ApplicationStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D1ADA2A90AEB100EFDF49 /* ApplicationStateModel.swift */; };
+		CE0D1ADD2A90AF3F00EFDF49 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D1ADC2A90AF3F00EFDF49 /* SettingView.swift */; };
+		CE0D1ADF2A90C0D100EFDF49 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = CE0D1ADE2A90C0D100EFDF49 /* cities.json */; };
+		CE0D1AE12A90C18000EFDF49 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D1AE02A90C18000EFDF49 /* City.swift */; };
 		CE42AC7D2A757091005194EF /* PharmacyDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42AC7C2A757091005194EF /* PharmacyDetailViewModel.swift */; };
 		CE42AC812A769C20005194EF /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42AC802A769C20005194EF /* TestView.swift */; };
 		CE81E3EA2A71394A0022FCB0 /* PharmaciesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E3E92A71394A0022FCB0 /* PharmaciesApp.swift */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0D1ADA2A90AEB100EFDF49 /* ApplicationStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationStateModel.swift; sourceTree = "<group>"; };
+		CE0D1ADC2A90AF3F00EFDF49 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		CE0D1ADE2A90C0D100EFDF49 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		CE0D1AE02A90C18000EFDF49 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		CE42AC7C2A757091005194EF /* PharmacyDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDetailViewModel.swift; sourceTree = "<group>"; };
 		CE42AC802A769C20005194EF /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		CE81E3E62A71394A0022FCB0 /* Pharmacies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharmacies.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +118,7 @@
 				CE81E40C2A72E12B0022FCB0 /* PharmacyListItemView.swift */,
 				CE81E40E2A72EE390022FCB0 /* PharmacyDetailView.swift */,
 				CE81E4102A73AE920022FCB0 /* MapAnnotationView.swift */,
+				CE0D1ADC2A90AF3F00EFDF49 /* SettingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -128,6 +137,8 @@
 				CE81E3FB2A7292440022FCB0 /* PharmacyModel.swift */,
 				CE81E4002A7293290022FCB0 /* ApiResponse.swift */,
 				CE42AC7C2A757091005194EF /* PharmacyDetailViewModel.swift */,
+				CE0D1ADA2A90AEB100EFDF49 /* ApplicationStateModel.swift */,
+				CE0D1AE02A90C18000EFDF49 /* City.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -135,6 +146,7 @@
 		CE81E3FD2A7292760022FCB0 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				CE0D1ADE2A90C0D100EFDF49 /* cities.json */,
 				CE81E40A2A72DF720022FCB0 /* pharmacy.json */,
 			);
 			path = Data;
@@ -200,6 +212,7 @@
 			files = (
 				CE81E3F12A71394B0022FCB0 /* Preview Assets.xcassets in Resources */,
 				CE81E40B2A72DF730022FCB0 /* pharmacy.json in Resources */,
+				CE0D1ADF2A90C0D100EFDF49 /* cities.json in Resources */,
 				CE81E3EE2A71394B0022FCB0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE42AC812A769C20005194EF /* TestView.swift in Sources */,
+				CE0D1ADB2A90AEB100EFDF49 /* ApplicationStateModel.swift in Sources */,
 				CE81E4112A73AE920022FCB0 /* MapAnnotationView.swift in Sources */,
+				CE0D1ADD2A90AF3F00EFDF49 /* SettingView.swift in Sources */,
 				CE42AC7D2A757091005194EF /* PharmacyDetailViewModel.swift in Sources */,
 				CE81E40D2A72E12B0022FCB0 /* PharmacyListItemView.swift in Sources */,
 				CE81E4092A72DF0F0022FCB0 /* MapView.swift in Sources */,
@@ -220,6 +235,7 @@
 				CE81E40F2A72EE390022FCB0 /* PharmacyDetailView.swift in Sources */,
 				CE81E4052A72DE960022FCB0 /* MainView.swift in Sources */,
 				CE81E4012A7293290022FCB0 /* ApiResponse.swift in Sources */,
+				CE0D1AE12A90C18000EFDF49 /* City.swift in Sources */,
 				CE81E3FC2A7292440022FCB0 /* PharmacyModel.swift in Sources */,
 				CE81E3EA2A71394A0022FCB0 /* PharmaciesApp.swift in Sources */,
 				CE81E4032A7297380022FCB0 /* CodableBundleExtension.swift in Sources */,
